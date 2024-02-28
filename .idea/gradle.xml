@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="GRADLE" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/allsensors" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/app/framelayout" />
+            <option value="$PROJECT_DIR$/app/myapplication" />
+            <option value="$PROJECT_DIR$/bluetoothoperations" />
+            <option value="$PROJECT_DIR$/broadcast" />
+            <option value="$PROJECT_DIR$/color_change" />
+            <option value="$PROJECT_DIR$/database" />
+            <option value="$PROJECT_DIR$/dialer" />
+            <option value="$PROJECT_DIR$/factorial" />
+            <option value="$PROJECT_DIR$/framelayout" />
+            <option value="$PROJECT_DIR$/gridview" />
+            <option value="$PROJECT_DIR$/launchcamera" />
+            <option value="$PROJECT_DIR$/launchvideo" />
+            <option value="$PROJECT_DIR$/listview" />
+            <option value="$PROJECT_DIR$/loginsystem" />
+            <option value="$PROJECT_DIR$/loginsystem/myapplication" />
+            <option value="$PROJECT_DIR$/messagingapp" />
+            <option value="$PROJECT_DIR$/openwebsite" />
+            <option value="$PROJECT_DIR$/pr10_1" />
+            <option value="$PROJECT_DIR$/pr14_2" />
+            <option value="$PROJECT_DIR$/pr9_2" />
+            <option value="$PROJECT_DIR$/pr_26" />
+            <option value="$PROJECT_DIR$/pr_29" />
+            <option value="$PROJECT_DIR$/pr_30" />
+            <option value="$PROJECT_DIR$/pr_31" />
+            <option value="$PROJECT_DIR$/pr_new_6_2" />
+            <option value="$PROJECT_DIR$/practical10_1" />
+            <option value="$PROJECT_DIR$/practical10_2" />
+            <option value="$PROJECT_DIR$/practical11" />
+            <option value="$PROJECT_DIR$/practical12" />
+            <option value="$PROJECT_DIR$/practical15_2" />
+            <option value="$PROJECT_DIR$/practical16" />
+            <option value="$PROJECT_DIR$/practical17" />
+            <option value="$PROJECT_DIR$/practical1_2" />
+            <option value="$PROJECT_DIR$/practical5_1" />
+            <option value="$PROJECT_DIR$/practical5_2" />
+            <option value="$PROJECT_DIR$/practical6_1" />
+            <option value="$PROJECT_DIR$/practical6_12" />
+            <option value="$PROJECT_DIR$/practical6_2" />
+            <option value="$PROJECT_DIR$/practical7_1" />
+            <option value="$PROJECT_DIR$/practical7_2" />
+            <option value="$PROJECT_DIR$/practical8_1" />
+            <option value="$PROJECT_DIR$/practical8_2" />
+            <option value="$PROJECT_DIR$/practical9_1" />
+            <option value="$PROJECT_DIR$/practical9_2" />
+            <option value="$PROJECT_DIR$/progressbar_1" />
+            <option value="$PROJECT_DIR$/progressbar_2" />
+            <option value="$PROJECT_DIR$/relativelayout" />
+            <option value="$PROJECT_DIR$/sample" />
+            <option value="$PROJECT_DIR$/scrollview" />
+            <option value="$PROJECT_DIR$/sensor" />
+            <option value="$PROJECT_DIR$/simplelogin" />
+            <option value="$PROJECT_DIR$/tablelayout" />
+            <option value="$PROJECT_DIR$/timepicker1" />
+            <option value="$PROJECT_DIR$/timepicker2" />
+            <option value="$PROJECT_DIR$/toastexample" />
+            <option value="$PROJECT_DIR$/userlocation" />
+            <option value="$PROJECT_DIR$/vertical_scrollview" />
+            <option value="$PROJECT_DIR$/zoomcontrol" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

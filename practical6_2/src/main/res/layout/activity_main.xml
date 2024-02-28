@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".MainActivity">
+
+<TextView
+    android:id="@+id/textView"
+    android:layout_width="match_parent"
+    android:layout_height="79dp"
+    android:layout_marginStart="16dp"
+    android:layout_marginTop="16dp"
+    android:text="Data Types in Object-Oriented Programming"
+    android:textColor="#FF0000"
+    android:textSize="25dp"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+
+<TextView
+    android:id="@+id/pd"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="top|start|fill_vertical"
+    android:layout_marginTop="80dp"
+    android:text="Primitive"
+    android:textColor="#FFFF00"
+    android:textSize="20dp" />
+
+<LinearLayout
+
+    android:layout_width="wrap_content"
+
+    android:layout_height="wrap_content"
+
+    android:layout_marginLeft="20dp"
+
+    android:layout_marginTop="110dp"
+
+    android:foregroundGravity="fill_horizontal|top"
+
+    android:orientation="vertical">
+
+    <TextView
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:text="1) Integer" />
+
+
+
+    <TextView
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:text="2) Float" />
+    <TextView
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:text="3) Char" />
+
+
+
+    <TextView
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:text="4) Boolean" />
+</LinearLayout>
+<TextView
+
+    android:id="@+id/pd"
+
+    android:layout_width="wrap_content"
+
+    android:layout_height="wrap_content"
+
+    android:layout_gravity="top|right|fill_vertical"
+
+    android:layout_marginTop="80dp"
+
+    android:text="Non-Primitive"
+    android:textColor="#FFFF00"
+
+    android:textSize="20dp" />
+<LinearLayout
+
+    android:layout_width="wrap_content"
+
+    android:layout_height="wrap_content"
+
+    android:layout_gravity="right"
+
+    android:layout_marginTop="110dp"
+
+
+
+    android:layout_marginRight="20dp"
+
+    android:orientation="vertical">
+
+
+
+
+
+    <TextView
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:text="1) Class" />
+
+
+
+    <TextView
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:text="2) Array" />
+
+
+
+    <TextView
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:text="3) Interface" />
+
+
+
+    <TextView
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:text="4) Object" />
+
+</LinearLayout>
+</FrameLayout>

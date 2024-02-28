@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="77dp"
+        android:layout_marginBottom="77dp"
+        android:text="Choose You Hobbies"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/read"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/read"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginBottom="22dp"
+        android:text="Reading"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/swim"
+        app:layout_constraintStart_toStartOf="@+id/swim" />
+
+    <CheckBox
+        android:id="@+id/swim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="264dp"
+        android:text="Swimming"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/write"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Story Writing"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="@+id/swim"
+        app:layout_constraintTop_toBottomOf="@+id/swim" />
+
+    <CheckBox
+        android:id="@+id/cook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:text="Cooking"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="@+id/write"
+        app:layout_constraintTop_toBottomOf="@+id/write" />
+
+    <CheckBox
+        android:id="@+id/sketch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:pointerIcon="arrow"
+        android:text="Sketching"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="@+id/cook"
+        app:layout_constraintTop_toBottomOf="@+id/cook" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="Submit"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sketch" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
